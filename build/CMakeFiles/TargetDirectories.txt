@@ -1,0 +1,3 @@
+/Users/gorbarseghyan/Desktop/Virtuum/Virtuum/build/CMakeFiles/virtuum_p2p.dir
+/Users/gorbarseghyan/Desktop/Virtuum/Virtuum/build/CMakeFiles/edit_cache.dir
+/Users/gorbarseghyan/Desktop/Virtuum/Virtuum/build/CMakeFiles/rebuild_cache.dir

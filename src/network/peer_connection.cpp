@@ -22,7 +22,10 @@ void PeerConnection::sendMessage(const std::string& message) {
 std::string PeerConnection::receiveMessage() {
     boost::asio::streambuf buffer;
     boost::asio::read_until(socket_, buffer, "\n");
-    return boost::asio::buffer_cast<const char*>(buffer.data());
+    std::istream is(&buffer);
+    std::string received_data;
+    std::getline(is, received_data);
+    return received_data;
 }
 
 void PeerConnection::close() {
